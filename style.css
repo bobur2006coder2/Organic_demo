@@ -34,7 +34,7 @@
 .banner {
   width: 1440px;
   margin: auto;
-  height: 850px;
+  height: 900px;
   flex-shrink: 0;
   background: #F3FBF8;
 
@@ -163,4 +163,11 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+}
+.botn{
+  margin-left: 107px;
+  margin-top: 107px;
+}
+.assarti{
+  margin-top: 107px;
 }
