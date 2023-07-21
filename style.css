@@ -32,27 +32,24 @@
 }
 
 .banner {
-  width: 1440px;
-  margin: auto;
-  height: 900px;
-  flex-shrink: 0;
-  background: #F3FBF8;
+  /* flex-shrink: 0; */
+
 
   position: relative;
 
 }
-
-.fruit {
+.header-top-text{
+  text-align: center;
   color: #222;
-  font-family: Rosario;
   font-size: 70px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 90px;
   color: #222222;
-  text-align: center;
-  padding-top: 135px;
+  
 }
+header{
+  background: #F3FBF8;
+}
+
 
 .label {
   color: #555;
