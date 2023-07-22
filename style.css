@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   list-style: none;
 }
 .list {
@@ -19,69 +19,45 @@
 .btnNav {
   width: 160px;
   height: 40px;
-    background-color: #09A66D;
+  background-color: #09a66d;
   border-radius: 8px;
   color: white;
   border: none;
 }
-.leftNav{
-    display: flex;
-    align-items: center;
-    /* gap: 155px; */
-    justify-content: space-between;
+.leftNav {
+  display: flex;
+  align-items: center;
+  /* gap: 155px; */
+  justify-content: space-between;
 }
 
 .banner {
-  /* flex-shrink: 0; */
-
-
   position: relative;
-
 }
-.header-top-text{
+.header-top-text {
   text-align: center;
   color: #222;
   font-size: 70px;
   font-style: normal;
   color: #222222;
-  
 }
-header{
-  background: #F3FBF8;
-}
-
-
-.label {
-  color: #555;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
+header {
+  background: #f3fbf8;
 }
 
-.matn {
-  width: 637px;
-  margin: auto;
-  height: 90px;
-}
+
+
+
 
 .image {
-
   position: absolute;
   top: -40px;
-
+  left: -300px;
 }
-
-.arrow {
-  width: 176px;
-  margin: auto;
-  height: 64px;
+.graf {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-top: 72px;
 }
 
 .belgi {
@@ -89,82 +65,55 @@ header{
 }
 
 .lol {
-  position: absolute;
-  left: 755px;
+  margin: 0 115px;
 }
 
-.order {
-  color: #222;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-}
 
-.tak {
+
+
+
+
+
+.button {
   width: 250px;
   height: 116px;
+  flex-shrink: 0;
+  border: none;
+  background-color: #fff;
   display: flex;
-  align-items: center;
-  gap: 36px;
-  background: #FFF;
-  position: absolute;
-  top: 440px;
-  left: 1090px;
 }
-
-.k {
-  color: #000;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 48px;
-  margin-bottom: 50px;
-}
-.photo{
-  margin-left: 45px;
-}
-.mevalar{
-  display: flex;
-  height: 450px;
-  margin-left: 107px;
-  margin-top: -120px;
-}
-.button{
-  width: 250px;
-height: 116px;
-flex-shrink: 0;
-border: none;
-background-color: #FFF;
-display: flex;
-}
-.J{
-  margin-left: 37px;
-  margin-top: 42px;
-}
-.jl{
+.box-text-top {
   margin-top: 17px;
   color: #000;
-text-align: center;
-font-family: DM Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; /* 100% */
-margin-left: 24px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
 }
-.jjs{
+.box-text-bottom {
   color: #000;
-text-align: center;
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
-.botn{
-  margin-left: 107px;
-  margin-top: 107px;
+
+.grab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.assarti{
-  margin-top: 107px;
+.img-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(179, 219, 179, 0.3);
+}
+.btn {
+  border: 1px solid white;
+}
+.button-box {
+  padding-left: 25px;
 }
